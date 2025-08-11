@@ -1,0 +1,22 @@
+.home-container{
+    position: relative;
+    min-height: 100vh;
+    align-content: center;
+}
+.home-pfp{
+    justify-self: center;
+}
+.home-pfp svg{
+    width: 150px;
+}
+.intro{
+    justify-items: center;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 40px;
+    justify-self: center;
+}
+.scroll-down svg{
+    width: 40px;
+}

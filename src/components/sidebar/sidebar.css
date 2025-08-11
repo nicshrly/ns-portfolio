@@ -1,0 +1,19 @@
+nav{
+    ul{
+        background-color: rgb(255, 255, 255);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 70px;
+        height: 100%;
+        position: fixed;
+        justify-items: center;
+        align-content: center;
+    }
+    li{
+        margin: 30px;
+    }
+    svg{
+        width: 40px;
+    }
+}

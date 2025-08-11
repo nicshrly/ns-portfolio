@@ -1,0 +1,16 @@
+.about-container h1{
+    margin-left: 40px;
+}
+.summary-container{
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-pfp svg{
+    width: 150px;
+    margin-right: 40px;
+}
+.summary{
+    width: 400px;
+}
