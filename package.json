@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.2.6",
+    "@fontsource/press-start-2p": "^5.2.6",
+    "@kylum/nes-react": "^0.3.0",
+    "nes.css": "^2.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

@@ -1,8 +1,8 @@
-.projects-container h1{
-    margin-left: 40px;
-}
 .cards{
     justify-content: center;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
