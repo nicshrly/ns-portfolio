@@ -12,6 +12,19 @@
   transition: all 0.3s ease;
 }
 
+.card a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.card a:hover{
+  color: #000000;
+}
+
+.card a:visited{
+  color: #000000;
+}
+
 .card-head {
   font-family: 'Press Start 2P', cursive;
   font-size: 14px;
@@ -36,11 +49,20 @@
 
 .card-img-box{
   background-color: #ffc3f4;
-    justify-self: center;
-    margin: 12px;
-    width: 85%;
-    height: 200px;
-    border: 3.5px solid black;
+  justify-self: center;
+  margin: 12px;
+  width: 85%;
+  height: 200px;
+  border: 3.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-img-box img{
+  height: 100%;
+  object-fit: contain;
 }
 
 .card-button{

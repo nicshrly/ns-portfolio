@@ -1,3 +1,6 @@
+.about-container{
+    padding: 40px;
+}
 .about-container p{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -6,8 +9,7 @@
 .summary-container{
     justify-content: center;
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
 }
 .about-pfp svg{
     width: 150px;
