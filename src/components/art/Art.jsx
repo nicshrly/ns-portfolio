@@ -4,37 +4,37 @@ import Stack from './Stack'
 
 const Art = () => {
   const crystal = [
-    '/assets/crystal-mm.png',
-    '/assets/crystal-gameplay-screen.png',
-    '/assets/crystal-sell.png',
-    '/assets/crystal-pause.png',
-    '/assets/crystal-attack-anim.png'
+    '/ns-portfolio/assets/crystal-mm.png',
+    '/ns-portfolio/assets/crystal-gameplay-screen.png',
+    '/ns-portfolio/assets/crystal-sell.png',
+    '/ns-portfolio/assets/crystal-pause.png',
+    '/ns-portfolio/assets/crystal-attack-anim.png'
   ]
 
   const casino = [
-    '/assets/casino-mm.png',
-    '/assets/casino-paused.png',
-    '/assets/casino-gameplay-screen.png'
+    '/ns-portfolio/assets/casino-mm.png',
+    '/ns-portfolio/assets/casino-paused.png',
+    '/ns-portfolio/assets/casino-gameplay-screen.png'
   ]
 
   const sos = [
-    '/assets/sos-mm.png',
-    '/assets/sos-hallway.png',
-    '/assets/sos-room.png',
-    '/assets/sos-newspaper.png',
-    '/assets/sos-computer.png',
-    '/assets/sos-book.png',
-    '/assets/sos-gameover1.png',
-    '/assets/sos-gameover2.png'
+    '/ns-portfolio/assets/sos-mm.png',
+    '/ns-portfolio/assets/sos-hallway.png',
+    '/ns-portfolio/assets/sos-room.png',
+    '/ns-portfolio/assets/sos-newspaper.png',
+    '/ns-portfolio/assets/sos-computer.png',
+    '/ns-portfolio/assets/sos-book.png',
+    '/ns-portfolio/assets/sos-gameover1.png',
+    '/ns-portfolio/assets/sos-gameover2.png'
   ]
 
   return (
     <section className='art-container' id='art'>
       <h1>Game Art</h1>
       <div className='gallery'>
-        <Stack img='/assets/crystal-mm.png' slides={crystal}></Stack>
-        <Stack img='/assets/casino-mm.png' slides={casino}></Stack>
-        <Stack img='/assets/sos-mm.png' slides={sos}></Stack>
+        <Stack img='/ns-portfolio/assets/crystal-mm.png' slides={crystal}></Stack>
+        <Stack img='/ns-portfolio/assets/casino-mm.png' slides={casino}></Stack>
+        <Stack img='/ns-portfolio/assets/sos-mm.png' slides={sos}></Stack>
       </div>
     </section>
   )
