@@ -1,20 +1,26 @@
-nav{
-    ul{
-        background-color: rgb(255, 255, 255);
-        border-right: 4px solid #212529;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 70px;
-        height: 100%;
-        position: fixed;
-        justify-items: center;
-        align-content: center;
-    }
-    li{
-        margin: 30px;
-    }
-    svg{
-        width: 40px;
+nav ul{
+    background-color: rgb(255, 255, 255);
+    border-right: 4px solid #212529;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 100%;
+    position: fixed;
+    justify-items: center;
+    align-content: center;
+}
+
+nav li{
+    margin: 30px;
+}
+
+nav svg{
+    width: 40px;
+}
+
+@media (max-width: 768px){
+    nav{
+        display: none !important;
     }
 }
