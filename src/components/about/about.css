@@ -3,7 +3,7 @@
 }
 .about-container p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 .summary-container{
@@ -17,4 +17,13 @@
 }
 .summary{
     width: 600px;
+}
+
+@media (max-width: 600px){
+    .about-pfp{
+        display: none;
+    }
+    .about-container h1{
+        justify-self: center;
+    }
 }

@@ -1,22 +1,25 @@
 .home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     min-height: 100vh;
-    align-content: center;
+    align-items: center;
 }
 .home-pfp{
-    justify-self: center;
+    text-align: center;
 }
 .home-pfp svg{
     width: 150px;
 }
 .intro{
-    justify-items: center;
+    text-align: center;
 }
 .scroll-down{
     position: absolute;
     bottom: 40px;
-    justify-self: center;
 }
+
 .scroll-down svg{
     width: 40px;
 }

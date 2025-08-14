@@ -4,7 +4,6 @@
 .socials {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   margin: 50px;
 }
 
@@ -12,4 +11,24 @@
   display: flex;
   align-items: center;
   gap: 40px; 
+}
+
+@media (max-width: 600px){
+  .socials{
+    margin: 0;
+  }
+  
+  .social-item{
+    gap: 10px;
+  }
+  
+  .social-item img{
+    width: 40px;
+  }
+
+  .social-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
 }

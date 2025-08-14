@@ -85,3 +85,17 @@
   box-shadow: 1.5px 1.5px 0 #000000;
   background: #1ac2ff;
 }
+
+@media (max-width: 600px){
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-button{
+    margin-left: 0;
+  }
+  .card-date{
+    width: 100%;
+  }
+}
