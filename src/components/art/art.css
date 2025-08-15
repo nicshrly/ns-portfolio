@@ -7,9 +7,3 @@
   flex-wrap: wrap;
   gap: 60px;
 }
-
-@media (max-width: 600px) {
-    .art-container h1{
-        justify-self: center;
-    }
-}

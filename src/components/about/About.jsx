@@ -15,7 +15,7 @@ const About = () => {
         <div className='summary'>
           <div className="nes-balloon from-left">
             <p>
-              Hello! I'm Nicole, a fourth-year computer science student with a passion for technology and the arts. 
+              Hello! I'm Nicole, a fourth-year computer science student with a passion for technology and art. 
               At UC San Diego, I've explored everything from cybersecurity to web development, and I've discovered 
               that I work best when I can blend creativity with functionality. Whether it's designing and programming 
               a game or building a web app, I enjoy finding ways to make systems not just work, but feel engaging. I'm 

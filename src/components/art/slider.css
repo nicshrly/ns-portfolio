@@ -40,3 +40,21 @@
   height: 100%;
   object-fit: contain;
 }
+
+@media (max-width: 600px){
+  .next, .prev{
+    top: 65vh;
+  }
+
+  .prev{
+    left: 25vw;
+  }
+
+  .next{
+    right: 25vw;
+  }
+
+  .slides{
+    max-width: 100%;
+  }
+}
