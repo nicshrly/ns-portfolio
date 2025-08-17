@@ -2,7 +2,8 @@
   padding: 40px;
 }
 .gallery{
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 60px;

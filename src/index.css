@@ -1,4 +1,4 @@
 body{
-    background-color: rgb(158, 189, 255);
+    background: linear-gradient(180deg, #ffe5ce, #ffd5c5, #ffc5c4, #fdb6cb, #efabd7, #d5a4e4, #afa2ef, #79a2f2);
     font-family: 'Press Start 2P', cursive;
 }

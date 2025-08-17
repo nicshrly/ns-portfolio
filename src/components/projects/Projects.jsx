@@ -8,6 +8,16 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className='cards'>
         <Card
+          title='Prismatic TD'
+          img='/ns-portfolio/assets/crystal-mm-crop.png'
+          date='Apr 2025'
+          text='A tower defense game made in Unity for a 2-week game jam.'
+          button='View Itch.io'
+          link='https://eatyboy.itch.io/prismatic-tower-defense'
+          >
+
+        </Card>
+        <Card
           title='Triton Turn-Up'
           img='/ns-portfolio/assets/ttu-snip.png'
           date='Sept 2024 - Dec 2024'
@@ -18,7 +28,7 @@ const Projects = () => {
         <Card
           title='Shadows of Sin'
           img='/ns-portfolio/assets/sos-mm.png'
-          date='Oct 2024 - Oct 2024'
+          date='Oct 2024'
           text="A short point-and-click visual novel horror game made in Ren'Py for a 2-week game jam."
           button='View Itch.io'
           link='https://niikamodiiva.itch.io/shadows-of-sin'

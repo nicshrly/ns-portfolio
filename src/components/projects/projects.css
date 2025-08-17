@@ -2,9 +2,9 @@
     padding: 40px;
 }
 .cards{
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }

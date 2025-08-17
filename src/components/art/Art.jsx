@@ -31,6 +31,7 @@ const Art = () => {
   return (
     <section className='art-container' id='art'>
       <h1>Game Art</h1>
+      <p>Hand-drawn by me using Procreate :)</p>
       <div className='gallery'>
         <Stack img='/ns-portfolio/assets/crystal-mm.png' slides={crystal}></Stack>
         <Stack img='/ns-portfolio/assets/casino-mm.png' slides={casino}></Stack>

@@ -7,12 +7,14 @@
     font-weight: 600;
 }
 .summary-container{
-    justify-content: center;
     display: flex;
-    margin-top: 40px;
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
-.about-pfp svg{
-    width: 150px;
+.about-pfp img{
+    width: 200px;
     margin-right: 40px;
 }
 .summary{
