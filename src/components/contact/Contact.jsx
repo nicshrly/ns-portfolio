@@ -17,6 +17,11 @@ const Contact = () => {
         </div>
 
         <div className='social-item'>
+          <img src='https://img.icons8.com/?size=100&id=62856&format=png&color=000000'></img>
+          <p>nicshrly</p>
+        </div>
+        
+        <div className='social-item'>
           <img src='https://img.icons8.com/?size=100&id=30888&format=png&color=000000'></img>
           <p>nicshrly</p>
         </div>
